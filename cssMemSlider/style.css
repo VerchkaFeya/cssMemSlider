@@ -1,0 +1,105 @@
+:root {
+  --main-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+.slider {
+  width: 70vw;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.middle {
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.bar {
+  display: block;
+  background-color: white;
+  margin-top: 1%;
+  width: 3rem;
+  border: 0.8rem solid var(--main-color);
+  border-radius: 1.5rem;
+  height: 3rem;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+} 
+
+.bar:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+input[name="radiobutton"] {
+  display: none;
+  visibility: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 20%;
+  height: 100%;
+  background-color: var(--main-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} 
+
+#radio1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .s2 {
+  margin-left: -20%;
+}
+#radio2:checked ~ .s1 {
+  opacity: 0;
+}
+
+#radio3:checked ~ .s3 {
+  margin-left: -40%;
+}
+#radio3:checked ~ .s1 {
+  opacity: 0;
+}
+
+#radio4:checked ~ .s4 {
+  margin-left: -60%;
+}
+#radio4:checked ~ .s1 {
+  opacity: 0;
+}
+
+#radio5:checked ~ .s5 {
+  margin-left: -80%;
+}
+#radio5:checked ~ .s1 {
+  opacity: 0;
+}
