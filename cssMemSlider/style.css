@@ -109,9 +109,11 @@ input[type=radio] {
 #radio1:checked ~ .slides-wrapper .slides {
   margin-left: 0;
 }
+
 #radio1:checked ~ .inscriptions-and-controls .inscriptions {
   margin-left: 0;
 }
+
 #radio1:checked ~ .inscriptions-and-controls .inside-bar1 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
@@ -120,9 +122,11 @@ input[type=radio] {
 #radio2:checked ~ .slides-wrapper .slides {
   margin-left: -100%;
 }
+
 #radio2:checked ~ .inscriptions-and-controls .inscriptions {
   margin-left: -100%;
 }
+
 #radio2:checked ~ .inscriptions-and-controls .inside-bar2 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
@@ -131,9 +135,11 @@ input[type=radio] {
 #radio3:checked ~ .slides-wrapper .slides {
   margin-left: -200%;
 }
+
 #radio3:checked ~ .inscriptions-and-controls .inscriptions {
   margin-left: -200%;
 }
+
 #radio3:checked ~ .inscriptions-and-controls .inside-bar3 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
@@ -142,9 +148,11 @@ input[type=radio] {
 #radio4:checked ~ .slides-wrapper .slides {
   margin-left: -300%;
 }
+
 #radio4:checked ~ .inscriptions-and-controls .inscriptions {
   margin-left: -300%;
 }
+
 #radio4:checked ~ .inscriptions-and-controls .inside-bar4 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
@@ -153,9 +161,11 @@ input[type=radio] {
 #radio5:checked ~ .slides-wrapper .slides {
   margin-left: -400%;
 }
+
 #radio5:checked ~ .inscriptions-and-controls .inscriptions {
   margin-left: -400%;
 }
+
 #radio5:checked ~ .inscriptions-and-controls .inside-bar5 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
