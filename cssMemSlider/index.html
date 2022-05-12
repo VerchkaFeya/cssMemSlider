@@ -5,36 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:regular" rel="stylesheet" />
   <title>CSS Meme Slider</title>
 </head>
 <body>
-  <div class="slider middle">
-    <div class="slides">
-      <input type="radio" name="radiobutton" id="radio1" checked>
-      <input type="radio" name="radiobutton" id="radio2">
-      <input type="radio" name="radiobutton" id="radio3">
-      <input type="radio" name="radiobutton" id="radio4">
-      <input type="radio" name="radiobutton" id="radio5">
+  <div class="container">
 
-      <div class="slide s1"><img src="./img/meme1.jpg" alt="meme1"></div>
-      <div class="slide s2"><img src="./img/meme2.jpg" alt="meme2"></div>
-      <div class="slide s3"><img src="./img/meme3.jpg" alt="meme3"></div>
-      <div class="slide s4"><img src="./img/meme4.jpg" alt="meme5"></div>
-      <div class="slide s5"><img src="./img/meme5.jpg" alt="meme6"></div>
+    <input type="radio" name="radiobutton" id="radio1" checked>
+    <input type="radio" name="radiobutton" id="radio2">
+    <input type="radio" name="radiobutton" id="radio3">
+    <input type="radio" name="radiobutton" id="radio4">
+    <input type="radio" name="radiobutton" id="radio5">
+
+    <div class="slides-wrapper">
+      <div class="slides">
+        <div class="slide s1"><img src="./img/meme1.jpg" alt="meme1"></div>
+        <div class="slide s2"><img src="./img/meme2.jpg" alt="meme2"></div>
+        <div class="slide s3"><img src="./img/meme3.jpg" alt="meme3"></div>
+        <div class="slide s4"><img src="./img/meme4.jpg" alt="meme4"></div>
+        <div class="slide s5"><img src="./img/meme5.jpg" alt="meme5"></div>
+      </div>
     </div>
-  </div>
-  <div class="controls">
-    <label for="radio1" class="bar"></label>
-    <label for="radio2" class="bar"></label>
-    <label for="radio3" class="bar"></label>
-    <label for="radio4" class="bar"></label>
-    <label for="radio5" class="bar"></label>
+
+    <div class="inscriptions-and-controls">
+      <div class="inscriptions-wrapper">
+        <div class="inscriptions">
+          <p>Let's play people!</p>
+          <p>Do you want live like in England?</p>
+          <p>What are you doing?</p>
+          <p>Eww, politics...</p>
+          <p>Honey, look at these poor things!</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <label for="radio1" class="bar"><div class="inside-bar inside-bar1"></div></label>
+        <label for="radio2" class="bar"><div class="inside-bar inside-bar2"></div></label>
+        <label for="radio3" class="bar"><div class="inside-bar inside-bar3"></div></label>
+        <label for="radio4" class="bar"><div class="inside-bar inside-bar4"></div></label>
+        <label for="radio5" class="bar"><div class="inside-bar inside-bar5"></div></label>
+      </div>
+    </div>
   </div>
 </body>
 </html>
-
-<!-- <label for="radio1" class="bar">Eww, politics...</label>
-<label for="radio2" class="bar">Do you want live like in England?</label>
-<label for="radio3" class="bar">What are you doing?</label>
-<label for="radio4" class="bar">Honey, look at these poor things!</label>
-<label for="radio5" class="bar">Let's play people</label> -->
