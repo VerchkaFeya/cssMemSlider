@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  width: 50vw;
+  width: 40vw;
   height: 70vh;
   margin: 0 auto;
   margin-top: 5vh;
@@ -33,6 +33,7 @@ input[type=radio] {
   height: 100%;
   border-radius: 0.5rem;
   background-color: var(--text-color);
+  background-color: rgba(223, 223, 211, 0.1);
 }
 
 .slides {
@@ -159,4 +160,18 @@ input[type=radio] {
 #radio5:checked ~ .inscriptions-and-controls .inside-bar5 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 90vw;
+  }
+
+  .inscriptions-and-controls {
+    flex-direction: column-reverse;
+  }
+
+  .inscriptions {
+    margin-top: 5vh;
+  }
 }
