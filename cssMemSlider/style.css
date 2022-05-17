@@ -24,7 +24,7 @@ body {
 }
 
 input[type=radio] {
-  display: none;
+  visibility: hidden;
 }
 
 .slides-wrapper {
@@ -105,6 +105,13 @@ input[type=radio] {
   transform: scale(1.2);
   opacity: 1;
 }
+
+.bar:active .inside-bar{
+	transform: scale(1.3);
+	opacity: 1;
+	background-color: white;
+	box-shadow: 0 0 2px 0 white;
+  }
 
 #radio1:checked ~ .slides-wrapper .slides {
   margin-left: 0;
