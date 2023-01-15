@@ -186,7 +186,7 @@ input[type='radio'] {
   margin-left: -500%;
 }
 
-#radio6:checked ~ .inscriptions-and-controls .inside-bar5 {
+#radio6:checked ~ .inscriptions-and-controls .inside-bar6 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
 }
@@ -199,7 +199,7 @@ input[type='radio'] {
   margin-left: -600%;
 }
 
-#radio7:checked ~ .inscriptions-and-controls .inside-bar5 {
+#radio7:checked ~ .inscriptions-and-controls .inside-bar7 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
 }
@@ -212,7 +212,7 @@ input[type='radio'] {
   margin-left: -700%;
 }
 
-#radio8:checked ~ .inscriptions-and-controls .inside-bar5 {
+#radio8:checked ~ .inscriptions-and-controls .inside-bar8 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
 }
