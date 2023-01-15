@@ -12,7 +12,7 @@
 body {
   background-color: var(--main-color);
   color: var(--text-color);
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu';
   font-weight: 400;
 }
 
@@ -23,7 +23,7 @@ body {
   margin-top: 5vh;
 }
 
-input[type=radio] {
+input[type='radio'] {
   visibility: hidden;
 }
 
@@ -36,14 +36,14 @@ input[type=radio] {
 }
 
 .slides {
-  width: 500%;
+  width: 800%;
   height: 100%;
   display: flex;
   transition: all 0.5s ease-in-out;
 }
 
 .slide {
-  width: 20%;
+  width: 12.5%;
 }
 
 .slide img {
@@ -65,7 +65,7 @@ input[type=radio] {
 }
 
 .inscriptions {
-  width: 500%;
+  width: 800%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,7 @@ input[type=radio] {
 }
 
 .inscriptions p {
-  width: 20%;
+  width: 12.5%;
 }
 
 .controls {
@@ -101,17 +101,17 @@ input[type=radio] {
   opacity: 0.8;
 }
 
-.bar:hover .inside-bar{
+.bar:hover .inside-bar {
   transform: scale(1.2);
   opacity: 1;
 }
 
-.bar:active .inside-bar{
-	transform: scale(1.3);
-	opacity: 1;
-	background-color: white;
-	box-shadow: 0 0 2px 0 white;
-  }
+.bar:active .inside-bar {
+  transform: scale(1.3);
+  opacity: 1;
+  background-color: white;
+  box-shadow: 0 0 2px 0 white;
+}
 
 #radio1:checked ~ .slides-wrapper .slides {
   margin-left: 0;
@@ -174,6 +174,45 @@ input[type=radio] {
 }
 
 #radio5:checked ~ .inscriptions-and-controls .inside-bar5 {
+  background-color: transparent;
+  border: 0.15rem solid var(--text-color);
+}
+
+#radio6:checked ~ .slides-wrapper .slides {
+  margin-left: -500%;
+}
+
+#radio6:checked ~ .inscriptions-and-controls .inscriptions {
+  margin-left: -500%;
+}
+
+#radio6:checked ~ .inscriptions-and-controls .inside-bar5 {
+  background-color: transparent;
+  border: 0.15rem solid var(--text-color);
+}
+
+#radio7:checked ~ .slides-wrapper .slides {
+  margin-left: -600%;
+}
+
+#radio7:checked ~ .inscriptions-and-controls .inscriptions {
+  margin-left: -600%;
+}
+
+#radio7:checked ~ .inscriptions-and-controls .inside-bar5 {
+  background-color: transparent;
+  border: 0.15rem solid var(--text-color);
+}
+
+#radio8:checked ~ .slides-wrapper .slides {
+  margin-left: -700%;
+}
+
+#radio8:checked ~ .inscriptions-and-controls .inscriptions {
+  margin-left: -700%;
+}
+
+#radio8:checked ~ .inscriptions-and-controls .inside-bar5 {
   background-color: transparent;
   border: 0.15rem solid var(--text-color);
 }
